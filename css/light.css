@@ -4,7 +4,7 @@
     --subtitleColor: #ADADAD;
     --blackColor: #000;
     --bgColor: #FBFBFB;
-  }
+}
 
 body {
     background-color: var(--bgColor);

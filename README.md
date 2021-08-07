@@ -1,4 +1,4 @@
-# Web App using a JavaScript, JQuery & JQuery UI
+# Web App using JavaScript, JQuery & JQuery UI
 ## Overview
 
 This is a great small challenge to help get you used to building to a design using javascript, jquery & jquery ui.
