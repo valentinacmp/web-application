@@ -12,6 +12,7 @@ This is a great small challenge to help get you used to building to a design usi
 
 - Semantic HTML5 markup
 - CSS custom properties
+- LocalStorage
 - JQuery
 - JQuery UI
 
