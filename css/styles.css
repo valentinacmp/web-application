@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+div#logo > img {
+    width: 100%;
+    float: initial;
+}
+
+div#logo > h1 {
+    position: absolute;
+    bottom: 32%;
+    left: 8%;
+}
+
+#global-container{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: -1px 0px 10px 0px rgb(195 195 195);
+}
+
+#logo {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 7px;
+    color: #adadad;
+    position: relative;
+}
+
+#menu {
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 40px;
+    list-style: none;
+}
+
+#menu li {
+    height: 40px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;  
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts {
+    width: 80%;
+    /* float: left; */
+    font-family: 'Courier New', Courier, monospace;;
+}
+
+.post  h2{
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.post .date {
+    display: block;
+    color: gray;
+    margin-top: 1%;
+}
+
+.post p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.btn-more {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    width: 120px;
+}
+
+article.post {
+    margin-bottom: 5%;
+}
+
+#sidebar {
+    font-family: 'Courier New', Courier, monospace;;
+    width: 31%;
+    float: right;
+}
+
+img#about-img {
+    width: 320px;
+    height: 300px;
+}
+
+section#content {
+    display: flex;
+    margin-top: 5%;
+}
+
+#sidebar {
+    font-family: 'Courier New', Courier, monospace;;
+    width: 40%;
+}
+
+img#about-img {
+    width: 345px;
+    height: 300px;
+}
+
+#sidebar h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+}
+
+#sidebar h4, #contact h4 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 10px;
+    background: url('../img/lines2.png') repeat-x;
+}
+
+#about h5 {
+    color: grey;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#about p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+form input[type="text"], form input[type="email"], form input[type="passwod"] {
+    padding: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 2px;
+    border: 1px solid #adadad;
+    width: 97%;
+    box-shadow: 0px 0px 2px gray;
+}
+
+form input[type="submit"] {
+    background: #9e72fc;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;;
+    color: #9e9292;
+    height: 47px;
+    background: rgb(239 239 239);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2px;
+    line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 450px !important;
+}
+
+#change-theme {
+    position: fixed;
+    top: 39.5%;
+    left: 12.4%;
+    background: rgb(158 114 252 / 50%);
+    width: 3rem;
+    height: 100px;
+}
+
+#light-theme, #dark-theme {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+i.fas.fa-sun {
+    color: white;
+}
+
+.go-up{
+    color: #9E72FC;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+div#login {
+    background: #8080800d;
+    padding: 10%;
+    margin: 2%;
+}
+
+a#logout {
+    text-decoration: none;
+    background-color: #ff00004f;
+    color: white;
+    padding: 5%;
+    display: block;
+    text-align: center;
+}
+
+h4.welcome {
+    line-height: 35px !important;
+    background: none !important;
+    margin-bottom: 0% !important;
+}
+
+#box {
+    width: 85%;
+    margin-top: 1.5%;
+}
+
+.ui-accordion .ui-accordion-header-active{
+    background: #9E72FC;
+}
+
+#reloj {
+    font-size: 30px;
+    font-weight: bold;
+    width: 525px;
+    text-align: center;
+}
+
+h4.tutorial-h {
+    text-align: center;
+    margin-left: 20%;
+    color: #9e72fc;
+    margin-bottom: 3%;
+    font-size: 25px;
+}
+
+div#contact {
+    width: 85%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contact h4 {
+    margin-bottom: 10%;
+}
+
+#contact form {
+    width: 90%;
+    margin-top: 10%;
+    margin: 0px auto;
+    background: #8080800d;
+    padding: 5%;
+}
+
+#contact form input[type="submit"], #contact input[type="number"] {
+    margin-top: 5%;
+}
+
+#contact textarea {
+    margin: 3%;
+    width: 310px;
+    height: 97px;
+}
+
+label#textarea {
+    float: left;
+    margin-top: 10px;
+}
+
+span.help-block.form-error {
+    display: flex;
+    margin-top: 5%;
+    padding: 3%;
+    text-align: center;
+    color: white;
+    background-color: #ff05056b;
+    text-transform: uppercase;
+    font-size: 14px;
+}

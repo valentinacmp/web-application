@@ -1,0 +1,32 @@
+:root {
+    --primaryColor: #FFFF;
+    --secondaryColor: #9E72FC; 
+    --subtitleColor: #ADADAD;
+    --blackColor: #000;
+    --bgColor: #FBFBFB;
+  }
+
+body {
+    background-color: var(--bgColor);
+}
+
+#logo {
+    background-color: var(--primaryColor);
+}
+
+#menu li:hover {
+    background-color: var(--subtitleColor);
+ }
+
+ .btn-more {
+    background: var(--secondaryColor);
+}
+
+
+#menu {
+    background: var(--blackColor);
+}
+
+#global-container{
+    background: var(--primaryColor);
+}

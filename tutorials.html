@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <!-- styles css -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/light.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/dark.css"> -->
+    <!-- icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- JQuery & JQuery UI JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js" integrity="sha512-L6Trpj0Q/FiqDMOD0FQ0dCzE0qYT2TFpxkIpXRSWlyPvaLNkGEMRuXoz6MC5PrtcbXtgDLAAI4VFtPvfYZXEtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- js main -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <div id="change-theme">
+        <div id="light-theme"><i class="fas fa-sun"></i></div>
+        <div id="dark-theme"><i class="fas fa-moon"></i></div>
+    </div>
+
+    <section id="global-container">
+        <!-- header -->
+        <header>
+            <!-- logo -->
+            <div id="logo">
+                <img src="img/banner.png" alt="JUMP!">
+                <h1>By Valentina Morales</h1>
+            </div>
+            <div id="clearfix"></div>
+            <nav>
+                <ul id="menu">
+                    <li class="tabs"><a href="index.html">Home</a></li>
+                    <li class="tabs"><a href="tutorials.html">Tutorials</a></li>
+                    <li class="tabs"><a href="aboutme.html">About Me</a></li>
+                    <li class="tabs"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- content -->
+        <section id="content">
+            <div class="container-posts">
+                <div id="box">
+                    <!-- load -->
+                    <h4 class="tutorial-h">TUTORIALS IN: </h4>
+                    <div id="reloj"></div>
+                </div>
+            </div>
+            <!-- sidebar -->
+            <aside id="sidebar">
+                <div id="about">
+                    <h4>ABOUT ME + FAQ</h4>
+                    <h5>FREQUENTLY ASKED QUESTIONS</h5>
+                    <img id="about-img" src="img/me_jump.png" alt="let's jump!">
+                    <p>
+                        Established in 2015, Rush Athletics was born out of the dislike for boring and conventional cardio methods. Searching for an alternative, I picked up a skipping rope and became instantly addicted. I soon realised that this was more that just fitness; it was an art form which had improved my physical and mental state. Inspired and determined, I felt the need to share this form of fitness with the world. My first Youtube video tutorial was uploaded on June 2015 and since then, our global community has grown to over 200k across all social media platforms.
+                    </p>
+                </div>
+                <div id="login">
+                    <h4>SIGN UP</h4>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="form_name">
+                        <label for="email">Email</label>
+                        <input type="text" name="email">
+                        <label for="password">Password</label>
+                        <input type="text" name="form_password">
+
+                        <input id="btn-login" type="submit" value="LOGIN">
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <footer>
+        Created by Valentina Morales &copy;
+
+        <a href="#" class="go-up"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+</body>
+</html> 
